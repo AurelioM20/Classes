@@ -21,14 +21,14 @@ Código Modular: O projeto é dividido em três arquivos, cada um com uma respon
 Estrutura do Projeto
 O projeto é composto por três arquivos principais:
 
-📄 produto.py
+produto.py
 
 Responsabilidade: Define a classe Produto, que serve como o modelo para os objetos de produto. Contém os atributos (id, nome, preco, quantidade) e os métodos para atualizar seus dados (atualizar_preco, atualizar_estoque).
 
-📄 gerenciador.py
+gerenciador.py
 
 Responsabilidade: Contém a classe GerenciadorDeProdutos, que gerencia a coleção de objetos Produto. Toda a lógica de adicionar, editar, excluir e listar os produtos é implementada neste módulo.
 
-📄 main.py
+main.py
 
 Responsabilidade: É o ponto de entrada da aplicação. Ele utiliza a classe GerenciadorDeProdutos para executar as operações em sequência e demonstrar o funcionamento completo do sistema.
